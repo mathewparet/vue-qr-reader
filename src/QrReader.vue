@@ -31,9 +31,6 @@
 </template>
 <script>
     import Instascan from '@mathewparet/instascan';
-    import Vue from 'Vue';
-    import BootstrapVue from 'bootstrap-vue';
-    Vue.use(BootstrapVue);
     export default {
         install(Vue)
         {

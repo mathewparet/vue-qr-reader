@@ -1,7 +1,7 @@
 {
   "name": "@mathewparet/vue-qr-reader",
   "description": "A VueJS compoenent (Modal) that integrates with @mathewparet/instascan to read qr code.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Mathew Paret <mathewparet@gmail.com>",
   "license": "MIT",
   "private": false,

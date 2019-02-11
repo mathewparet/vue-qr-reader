@@ -95,7 +95,6 @@
             hide()
             {
                 this.stopScanner();
-                this.$refs.scanPopup.hide();
             },
             stopScanner()
             {
@@ -112,6 +111,7 @@
                 });
                 this.scanner.addListener('scan', function(content, image) {
                     self.$emit('scan', content);
+                    self.$refs.scanPopup.hide();
                 });
                 Instascan.Camera.getCameras()
                     .then(cameras => {
